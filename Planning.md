@@ -1,4 +1,6 @@
+
 Page 1 Home:
+
         body
 
         Width: 100%
@@ -40,24 +42,35 @@ Page 1 Home:
         imge
             width 100%
             border: 3px black solid
+
 Page 2 form:
+
     body
+
         Header
+
             Navbar
+
             div contianer
             dispaly: flex
             dlex-direction: row
             aling-content: space-between
         Form
+
             fieldset
+
                 input1: text
                 input2: text
                 input3: check box
                 Textarea
                 button
+
 Page 3 about us:
+
     body
+
         Header
+
             Navbar
             div contianer
             dispaly: flex
@@ -75,6 +88,7 @@ Page 3 about us:
 
 
 Page 4 Our services:
+
     body
 
         Header
