@@ -1,12 +1,17 @@
 Page 1 Home:
         body
+
         Width: 100%
+
             Header
+
                 Navbar
+
                     div contianer
                     dispaly: flex
                     dlex-direction: row
                     aling-content: space-between
+
         Section 1:
                 H2 Hearder
                 Font: Arial. Strong, large
@@ -71,8 +76,11 @@ Page 3 about us:
 
 Page 4 Our services:
     body
+
         Header
+
             Navbar
+
                 div contianer
                 dispaly: flex
                 dlex-direction: row
@@ -81,6 +89,7 @@ Page 4 Our services:
         H1
             Font: airal, strong,
             font color: #9E231C
+
         Img1
         Img2
         Img3
