@@ -1,4 +1,74 @@
+/**Styling the body**/
+body {
+    margin: 10;
+    padding: 10;
+}
+
+/*Styling the logo***/
+.logo {
+    text-align: left;
+    /* Center align text */
+    padding: 40px;
+    /* Add padding for spacing */
+    background-color: #f3f3f3;
+}
+
+/* Background color */
+.logo h2 {
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+    font-size: 32px;
+    /* Font size */
+    font-weight: bold;
+    /* Font weight */
+    color: #333;
+    /* Text color */
+    margin-bottom: 0px;
+    /* Bottom margin */
+}
+
+/* Styles for the subheading */
+.logo sub {
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+    font-size: 16px;
+    /* Font size */
+    color: #666;
+    /* Text color */
+    margin-top: 0px;
+    text-align: right;
+}
+
 /**Styling the nav bar**/
 nav {
-    background-color: aquamarine;
+    padding: auto;
+    margin: 2px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+
+nav ul li {
+    text-decoration-style: none;
+    text-align: left;
+    padding: 5px;
+    margin: 3px;
+    background-color: #fffafa;
+    border-radius: 5px;
+    border: 2px black solid;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.23s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
 }
