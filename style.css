@@ -141,3 +141,60 @@ legend {
 .textare-container {
     display: flex;
 }
+
+/**Styling the link page**/
+.ListofLinks {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.ListofLinks li {
+    text-decoration-style: none;
+    text-align: left;
+    padding: 5px;
+    margin: 3px;
+    background-color: #fffafa;
+    border-radius: 5px;
+    border-bottom: 2px #333 solid;
+}
+
+.ListofLinks li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.23s ease;
+}
+
+.ListofLinks li a:hover {
+    color: #ff6347;
+    font-size: 25px;
+}
+
+/**Styling OurSerivecs page**/
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.grid a {
+    display: block;
+    text-align: center;
+}
+
+.grid img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.grid figcaption {
+    margin-top: 5px;
+}
