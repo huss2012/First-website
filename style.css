@@ -8,9 +8,11 @@ body {
 .logo {
     text-align: left;
     /* Center align text */
-    padding: 40px;
+    padding: 10px;
     /* Add padding for spacing */
-    background-color: #f3f3f3;
+    background-color: #fffafa;
+    border-top: 1px #333 solid;
+    border-bottom: 1px #333 solid;
 }
 
 /* Background color */
@@ -23,7 +25,7 @@ body {
     /* Font weight */
     color: #333;
     /* Text color */
-    margin-bottom: 0px;
+    margin: 5px 0px 0px 0px;
     /* Bottom margin */
 }
 
@@ -43,6 +45,7 @@ body {
 nav {
     padding: auto;
     margin: 2px;
+    border-bottom: 2px #333 solid;
 }
 
 nav ul {
@@ -71,4 +74,70 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #ff6347;
+}
+
+/**Styling all h1, all page most be same consistance**/
+h1 {
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+    color: #2d71c4;
+    font-size: 32px;
+}
+
+/**Styling all h2, all pages most be consisant**/
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 2px 2px 2px 8px;
+    padding: 3px;
+}
+
+.Home-img {
+    display: block;
+    margin: 0px auto;
+    width: 70%;
+    height: 500px;
+    border: 2px #ff6347 solid;
+    border-radius: 4px;
+}
+
+/**Sytling The form**/
+form {
+    display: grid;
+    grid-template: repeat(4, 20%) / repeat(4, 20%);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+fieldset {
+    grid-area: 1/1/6/6;
+}
+
+legend {
+    display: block;
+    border: 1px black solid;
+    top: 0px;
+    margin: 25px 0px 10px 0px;
+    text-align: left;
+}
+
+.firstname-label,
+.secondname-label,
+.email-label,
+.textare-label {
+    display: block;
+    text-align: center;
+}
+
+.textare-container {
+    display: flex;
 }

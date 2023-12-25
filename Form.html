@@ -30,34 +30,38 @@
             </li>
         </ul>
     </nav>
-    <Form action="">
+    <Form action="POST">
         <fieldset>
-            <legend>Get in Contact</legend>
-            <div class="firstname">
-                <label for="fristname">First Name</label>
-                <input type="text" id="firstname" name="fristname">
-            </div>
+            <legend>Get contact</legend>
+            <div class="form-container">
+                <div class="firstname">
+                    <label class="firstname-label" for="fristname">First Name</label>
+                    <input type="text" id="firstname" name="fristname">
+                </div>
+                <div class="secondname">
+                    <label class="secondname-label" for="secondname">Second Name</label>
+                    <input type="text" id="Secondname" name="secondname">
+                </div>
 
-            <div class="secondname">
-                <label for="secondname">Second Name</label>
-                <input type="text" id="Secondname" name="secondname">
-            </div>
+                <div class="email">
+                    <label class="email-label" for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
 
-            <div class="email">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
-            </div>
-
-
-            <div class="form-checkbox">
-                <input type="checkbox" id="singfornewsletter" name="newsletter">
-                <label for="newsletter">sign for news letter</label>
-            </div>
-
-            <belabel for="needs">Needs</lal>
-                <textarea id="needs" name="needs">Write your needs here to get respnse as soon as possible.</textarea>
-
+                <div class="form-checkbox">
+                    <input type="checkbox" id="singfornewsletter" name="newsletter">
+                    <label for="newsletter">sign for news letter</label>
+                </div>
+                <div class="textarea-container">
+                    <div>
+                        <label class="textarea-label" for="Needs">Needs</label>
+                    </div>
+                    <textarea class="needs">Write your needs</textarea>
+                </div>
                 <button id="submit">Submit</button>
+            </div>
+
+
         </fieldset>
     </Form>
 </body>
